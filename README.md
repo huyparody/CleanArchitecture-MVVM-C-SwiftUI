@@ -51,6 +51,7 @@ class GithubRepoUseCase: GithubRepoRepositoryType {
 }
 ```
 **Platform**
+
 Tại `Platform` chúng ta sẽ tiến hành triển khai các task như `call api, backend, db` như đã nói ở trên, và tiếp nhận data thông qua một **Repository**. Repository chính là nơi triển khai chi tiết (concrete implementation) các phần cụ thể của những use cases.
 
 ```swift
